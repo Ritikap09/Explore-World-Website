@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+     <header>
+        <div class="navbar">
+            <div class="logo">
+                <h2>Explore World</h2>
+            </div>
+            <div class="nav-search">
+                <input class="search-input" placeholder="Search explore world">
+                <div class="search-icon">
+                    <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+            <div class="nav-options">
+                <a href="index.html">Home</a>
+                <a href="destinations.html" >Destinations</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </header>
+    <main class="contact-main">
+    <h1>Contact Us</h1>
+
+    <form>
+      <label for="name">Full Name:</label>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <label for="phone">Phone:</label>
+      <input type="number" id="phone" name="phone"><br><br>
+
+      <label for="destination">Travel Destination:</label>
+      <select id="destination" name="destination">
+        <option value="">--Select--</option>
+        <option value="paris">Paris</option>
+        <option value="tokyo">Tokyo</option>
+        <option value="london">London</option>
+        <option value="maldives">maldive</option>
+        <option value="norway">Norway</option>
+        <option value="newyork">New York</option>
+      </select><br><br>
+
+      <label for="month">Prefered Month:</label>
+      <select id="month" name="month">
+        <option value="">--Select--</option>
+        <option value="Jan">January</option>
+        <option value="Feb">February</option>
+        <option value="Mar">March</option>
+        <option value="Apr">April</option>
+        <option value="May">May</option>
+        <option value="Jun">June</option>
+        <option value="Jul">July</option>
+        <option value="Aug">August</option>
+        <option value="Sep">September</option>
+        <option value="Oct">October</option>
+        <option value="Nov">November</option>
+        <option value="Dec">December</option>
+      </select><br><br>
+      <label for="comments">Comments:</label><br>
+      <textarea id="comments" name="comments" rows="4"></textarea><br><br>
+
+     <div class="newsletter">
+         <input type="checkbox" id="subscribe" name="subscribe">
+         <label for="subscribe">Subscribe to our newsletter</label>
+     </div>
+
+      <button type="submit">Submit</button>
+    </form>
+
+    <h2>Frequently Asked Questions</h2>
+
+    <div class="FAQ">
+      <details>
+      <summary>What is the refund policy?</summary>
+      <p>We offer a full refund if cancelled 7 days before the trip.</p>
+     </details>
+
+     <details>
+      <summary>Do you provide travel insurance?</summary>
+      <p>Yes, we provide optional travel insurance for all destinations.</p>
+     </details>
+
+     <details>
+      <summary>Can I customize my package?</summary>
+      <p>Absolutely! We allow customization based on your preferences.</p>
+     </details>
+    </div>
+  </main>
+
+    <footer>
+        <p>&copy; 2025 ExploreWorld. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
