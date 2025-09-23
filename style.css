@@ -60,7 +60,7 @@ main {
     transition: 0.3s;
 }
 .hero-section {
-    background-image: url("assests/background.jpg"); 
+    background-image: url("assets/background.jpg"); 
     background-size: cover;
     background-position: center;
     height: 100vh;
@@ -293,4 +293,5 @@ details p {
     margin-top: 30px;
   }
 }
+
 
