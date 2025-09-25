@@ -65,11 +65,7 @@ main {
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 }    
 @media screen and (max-width: 600px) {
-    .nav-search{
-        width: 70%;
-        max-width: 150px;
-        margin-left: 0;
-    } 
+  
   
 }
 .search-input{
@@ -146,6 +142,8 @@ footer {
   background: rgb(52, 10, 10);
   color: white;
   text-align: center;
+  padding: 15px 0;
+  position: relative;
 }
 h1 {
     color: #1d1b1b;
@@ -175,6 +173,8 @@ h1 {
 @media (max-width: 1024px) {
   .container{
     grid-template-columns: repeat(2, 1fr); 
+    padding: 0 15px;
+    gap: 15px;
   }
 }
 
@@ -182,7 +182,33 @@ h1 {
 @media (max-width: 600px) {
   .container {
     grid-template-columns: 1fr;
+    padding: 0 10px;
   }
+  .nav-options a {
+    font-size: 0.9rem;
+    margin-left: 10px;
+  }
+  .hero-content h1 {
+    font-size: 1.1rem;
+  }
+  .hero-content p {
+    font-size: 0.9rem;
+  }
+  .btn {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+  }
+  h1 {
+    font-size: 1.5rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+  }
+  .nav-search{
+    width: 70%;
+    max-width: 150px;
+    margin-left: 0;
+    font-size: 0.9rem; 
+  } 
 }
 
 .card {
